@@ -214,3 +214,17 @@ main {
     min-height: 567px;
   }
 }
+/* Footer */
+footer {
+  width: 100%;
+  color: var(--colors-dark-blue);
+  text-align: center;
+  padding: 6px 0;
+}
+footer a {
+  color: var(--colors-bright-blue);
+}
+footer a:hover {
+  color: var(--colors-soft-blue);
+  text-decoration: none;
+}
