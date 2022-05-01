@@ -1,0 +1,54 @@
+/* Google Font - Red Hat Display */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+/* Variables */
+:root {
+  /* Colors Primary */
+  --colors-pale-blue: hsl(225, 100%, 94%);
+  --colors-bright-blue: hsl(245, 75%, 52%);
+  /* Colors Neutral */
+  --colors-very-pale-blue: hsl(225, 100%, 98%);
+  --colors-desaturated-blue: hsl(224, 23%, 55%);
+  --colors-dark-blue: hsl(223, 47%, 23%);
+  /* Fonts */
+  --fonts-main: "Red Hat Display", sans-serif;
+}
+/* Global Rules  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--fonts-main);
+  cursor: default;
+}
+/* Reset Some Elements */
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+button {
+  color: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* Centering component */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 6px;
+  background-color: var();
+}
+/* Order summary component */
