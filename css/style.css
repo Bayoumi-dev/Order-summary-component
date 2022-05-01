@@ -49,7 +49,7 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 6px;
+  padding: 32px 6px;
   background-image: url(../images/pattern-background-desktop.svg);
   background-color: var(--colors-pale-blue);
   background-repeat: no-repeat;
